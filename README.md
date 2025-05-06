@@ -106,7 +106,7 @@ deploy
 
 - Architecture: `EarlyFusionCNN` with 6-channel input (RGB + simulated thermal).
 - Classes: `cracked`, `corrosion`, `leak`
-- Loss: CrossEntropy with optional Label Smoothing and Focal Loss
+- Loss: Categorical CrossEntropy
 - Optimizations: Pruning + Quantization + ONNX Export
 
 ---
