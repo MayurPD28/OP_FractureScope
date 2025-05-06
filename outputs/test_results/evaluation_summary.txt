@@ -1,0 +1,16 @@
+=== Test Evaluation Summary ===
+Total Test Samples: 240
+Test Loss: 0.0023
+Test Accuracy: 1.0000
+Test Precision: 1.0000
+Test Recall: 1.0000
+Test F1 Score: 1.0000
+
+Detailed Classification Report:
+              precision  recall  f1-score  support
+cracked             1.0     1.0       1.0     80.0
+corrosion           1.0     1.0       1.0     80.0
+leak                1.0     1.0       1.0     80.0
+accuracy            1.0     1.0       1.0      1.0
+macro avg           1.0     1.0       1.0    240.0
+weighted avg        1.0     1.0       1.0    240.0
